@@ -15,6 +15,12 @@
     <!-- css -->
     <link href="assets/css/style.css" rel="stylesheet">
 
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Bevan|Passion+One" rel="stylesheet">
+
+    <script src="https://use.fontawesome.com/7aca86c6b1.js"></script>
+
+
 </head>
 
 <!-- Navigation -->
@@ -25,25 +31,37 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Mycometrics</a>
+                <a class="navbar-brand page-scroll" href="#heading">Mycometrics</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
+
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
+
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Navigation <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="hidden">
                         <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#services">Services</a>
+                        </li>
+                        
+                        <li>
+                            <a href="login.html" target="_blank">BioEZ LIMS Login</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a class="page-scroll" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                  </li>
                     
-                    <li>
-                        <a class="page-scroll" href="#login">BioEZ LIMS Login</a>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -53,32 +71,82 @@
 
 <body>
 
+<section id="heading">
+        <div class="col-lg-12" id="headingDiv">
+            <center><h1 id="pageName">Mycometrics</h1>
+            <h5 id="pagePhrase">From research to diagnostics</h5></center>
+        </div>
+</section>
+
+
+
+<!-- About section -->
 <section id="about">
   <div class="container">
-    <div class="col-lg-12">
-      <h1>About us</h1>
+    <div class="col-lg-12" id="aboutDiv">
+      <h1 class="sectionHeader">About us</h1>
+      <br>
       <p>Mycometrics is a microbiology services laboratory specialized in the identification of fungi (molds), bacteria and viruses from the environment, food, pharmaceutical or biological products. We were established to provide unique services, combining the use of both conventional and emerging technologies, and employing the highest standards available. Our dedication to research and development along with quality control guarantee that our customers benefit from innovative microbial testing and cutting-edge advances. The QPCR services we offer reflect this continuing research emphasis. Mycometrics' pledge is that our quality services and customer support will always exceed your expectations.</p>
     </div>
   </div>
 </section>
 
-
+<!-- services section -->
 <section id="services">
 
   <div class="container">
-    <div class="col-lg-12">
-      <h1>About us</h1>
-      <p>Mycometrics is a microbiology services laboratory specialized in the identification of fungi (molds), bacteria and viruses from the environment, food, pharmaceutical or biological products. We were established to provide unique services, combining the use of both conventional and emerging technologies, and employing the highest standards available. Our dedication to research and development along with quality control guarantee that our customers benefit from innovative microbial testing and cutting-edge advances. The QPCR services we offer reflect this continuing research emphasis. Mycometrics' pledge is that our quality services and customer support will always exceed your expectations.</p>
+    <div class="col-lg-12" id="servicesDiv">
+      <h1 class="sectionHeader">Services</h1>
+        <br>
+        <!-- services list 1 -->
+        <div class="col-lg-6">
+            <ul>
+                <li>ERMI<sup>SM</sup>(Environmental Relative Moldiness Index) Analysis (EPA-licensed MSQPCR)</li>
+                <li>Fungal Identification and Enumeration</li>
+                <li>Total Fungal Spore Counts</li>
+                <li>Qualitative &amp; Quantitative PCR (QPCR) Analyses for Fungi, Yeasts, Bacteria and Viruses</li>
+                <li>Identification and Enumeration of Legionella Bacteria (CDC Protocol or QPCR Approach)</li>
+                <li>Indoor Allergens by ELISA</li>
+                <li>Water Microbiology Testing</li>
+            </ul>
+        </div>
+        
+        <!-- services list 2 -->
+        <div class="col-lg-6">
+            <ul>
+                <li>Food Microbiology Testing</li>
+                <li>Fiber and Dust Characterization</li>
+                <li>Microbial Limits (USP61)</li>
+                <li>Antimicrobial Assay (USP81)</li>
+                <li>Endotoxin Assay</li>
+                <li>Validation Study, Method Development and Contract Research</li>
+            </ul>
+        </div>
     </div>
   </div>
-
 </section>
 
-<section id="Contact">
+<section id="about">
+  <div class="container">
+    <div class="col-lg-12" id="contactDiv">
+      <h1 class="sectionHeader">Contact Us</h1>
+      <br>
+            <p>9 Deer Park Drive, Suite K-18
+            Monmouth Junction, NJ 08852 (Google Map)</p>
 
+            <ul>
+            <p><i class="fa fa-phone" aria-hidden="true"></i> Tel: (732) 355-9018</p>
+            <p><i class="fa fa-fax" aria-hidden="true"></i> Fax: (732) 658-5185</p>
+            <p><i class="fa fa-envelope" aria-hidden="true"></i> Email: quest@mycometrics.com</p>
+            </ul>
+    </div>
+  </div>
 </section>
 
 
+<footer>
+    <p> Copyright Mycometrics 2016</p>
+</footer>
 </body>
 
 </html>

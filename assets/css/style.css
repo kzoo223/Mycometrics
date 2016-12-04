@@ -1,14 +1,88 @@
-body { 
-    padding-top: 65px; 
+#mainNav{
+  background-color:transparent;
+  border-style:none;
+  margin:0;
+  color:white;
 }
 
+.nav,
+.navbar-default,
+.navbar-brand
+{
+  color:white;
+}
+
+#pageName{
+  font-family: 'Bevan', cursive;
+  font-size: 100px;
+  font-style:italic;
+  color:white;
+}
+
+#pagePhrase{
+  font-family: 'Passion One', cursive;
+  font-size: 20px;
+  font-style:italic;
+  color:white;
+}
+
+
+#heading{
+  background-image:url(../images/headerBackground.jpg);
+  background-size:cover;
+  max-width:100%;
+  height:800px;
+}
+
+
+#headingDiv
+{
+  padding-top:200px;
+}
+
+#aboutDiv,
+#contactDiv
+{
+  padding-top:150px;
+}
+
+#contactDiv{
+  text-align: center;
+}
+
+#servicesDiv
+{
+  padding-top:300px;
+}
+
+
 #about{
-
-background-color:black;
-
+background-color:white;
+padding-bottom:20px;
+height:500px;
 }
 
 
 #services{
-background-color:white;
+background-image:url(../images/servicesBackground.jpg);
+background-size:cover;
+height:800px;
+color:white;
 }
+
+.sectionHeader{
+  font-family: 'Passion One', cursive;
+  text-align: center;
+}
+
+footer{
+  height: 75px;
+  padding-top: 25px;
+  text-align: center;
+  font-family: 'Passion One', cursive;
+  font-size: 15px;
+  color: white;
+  background-image:url(../images/footerBackground.jpg);
+}
+
+
