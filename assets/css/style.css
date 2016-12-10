@@ -21,7 +21,6 @@
   font-size: 15px;
   font-style:italic;
   color:white;
-  text-align:right;
 }
 
 
@@ -79,7 +78,7 @@ body{
   padding-top: 50px;
 }
 
-footer{
+#limsFooter{
   height: 75px;
   padding-top: 25px;
   text-align: center;
@@ -87,6 +86,21 @@ footer{
   font-size: 15px;
   color: white;
   background-image:url(../images/footerBackground.jpg);
+  bottom:0;
+  position:absolute;
+  width:100%;
+}
+
+#indexFooter
+{
+  height: 75px;
+  padding-top: 25px;
+  text-align: center;
+  font-family: 'Passion One', cursive;
+  font-size: 15px;
+  color: white;
+  background-image:url(../images/footerBackground.jpg);
+  bottom:0;
 }
 
 
