@@ -68,30 +68,44 @@
         <!-- /.container-fluid -->
     </nav>
 
-
 <body>
 
 <section id="login">
   <div class="container">
     <div class="col-lg-2"></div>
     <div class="col-lg-8" id="loginDiv">
-        <h1 class="sectionHeader">Login</h1>
+        <h1 class="sectionHeader">Order Online!</h1>
       <br>
         <form action="/login" method="post">
 
                 <div class="form-group">
-                    <label>Username</label>
-                    <input type="text" class="form-control" name="username">
+                    <label>Customer Type:</label>
+                    <p>
+                    <input type="radio" name="q10" id="q11" value>
+                    New customer: First time Ordering
+                    </p>
+                    <p>
+                    <input type="radio" name="q10" id="q12" value>
+                    Returning Customer
+                    </p>
                 </div>
-
+                <br>
                 <div class="form-group">
-                    <label>Password</label>
-                    <input type="password" class="form-control" name="password">
+                    <label>Do you know which test and kit to order?</label>
+                    <p>
+                    <input type="radio" name="q20" id="q21" value>
+                    Yes
+                    </p>
+                    <p>
+                    <input type="radio" name="q20" id="q22" value>
+                    No
+                    </p>
                 </div>
 
                 <div class="col-sm-4 col-sm-offset-10">
-                    <button type="submit" class="btn btn-lg" class="button">Login</button>
+                    <button value="Next Step" onclick="nextstep();" type="submit" class="btn btn-lg" class="button">Next Step</button>
                 </div>
+
             </form>
 
     </div>
